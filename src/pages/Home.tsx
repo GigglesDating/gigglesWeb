@@ -12,7 +12,7 @@ const Home = () => {
         <Nav/>
         <Hero/>
         <AboutUsLanding/>
-        {/* <Features/> */}
+        <Features/>
         {/* <LandingDark/> */}
         {/* <ContactUs/> */}
         <Footer/>

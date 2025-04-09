@@ -39,7 +39,7 @@ const Hero = () => {
       <img
         src="/assets/hero.svg"
         alt=""
-        className="fadeIn xl:h-full xl:w-[60%] lg:w-[60%] w-full lg:mt-0 md:mt-[-4.5rem] sm:mt-[-2.1rem] mt-[2.1rem]"
+        className="fadeIn xl:h-full xl:w-[60%] lg:w-[60%] w-full lg:mt-0 md:mt-[-4.5rem] sm:mt-[-2.1rem] mt-[2.1rem] max-w-fit lg:place-self-center place-self-end"
       />
       <div className="sm:pl-20 xs:px-9 px-6 md:mt-[-3rem] flex lg:hidden flex-col md:gap-[1rem] gap-[0.3rem] text-left text-[#1F2726] justify-start items-start
       w-full">

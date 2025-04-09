@@ -1,0 +1,23 @@
+<svg width="128" height="129" viewBox="0 0 128 129" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_430_980)">
+<mask id="mask0_430_980" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="3" y="1" width="128" height="129">
+<path d="M3 1.50002H131V129.5H3V1.50002Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_430_980)">
+<path d="M84 127H14C8.47725 127 4 122.523 4 117V14C4 8.47725 8.47725 4 14 4H84C89.5228 4 94 8.47725 94 14V117C94 122.523 89.5228 127 84 127Z" fill="#EEEBE2"/>
+<path d="M4 54.25V14C4 8.47725 8.47725 4 14 4H84C89.5228 4 94 8.47725 94 14V117C94 122.523 89.5228 127 84 127H14C8.47725 127 4 122.523 4 117V76.75" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M84 110.771H14V20H84V110.771Z" fill="#8C9998" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M37.5938 12H60.4052" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M68.9902 64.75C65.9527 64.75 63.4902 62.2875 63.4902 59.25C63.4902 56.2125 65.9527 53.75 68.9902 53.75H74.4902" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M68.9902 64.75C72.0277 64.75 74.4902 67.2125 74.4902 70.25C74.4902 73.2875 72.0277 75.75 68.9902 75.75H63.4902" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29.0098 64.75C25.9723 64.75 23.5098 62.2875 23.5098 59.25C23.5098 56.2125 25.9723 53.75 29.0098 53.75H34.5098" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29.0098 64.75C32.0473 64.75 34.5098 67.2125 34.5098 70.25C34.5098 73.2875 32.0473 75.75 29.0098 75.75H23.5098" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M49 53.75C45.9625 53.75 43.5 56.2125 43.5 59.25V70.25C43.5 73.2875 45.9625 75.75 49 75.75C52.0375 75.75 54.5 73.2875 54.5 70.25V59.25C54.5 56.2125 52.0375 53.75 49 53.75Z" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_430_980">
+<rect width="128" height="128" fill="white" transform="translate(0 0.5)"/>
+</clipPath>
+</defs>
+</svg>
