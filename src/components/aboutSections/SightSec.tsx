@@ -36,7 +36,7 @@ const SightSec = () => {
         src="/assets/about3.svg"
         alt=""
         className={` xl:w-[75%] lg:w-[54%] w-[100%] ${
-          isVisible ? "ttbAnim " : " md:opacity-0 "
+          isVisible ? "ttbAnimSm " : " md:opacity-0 "
         }`}
       />
     </section> 

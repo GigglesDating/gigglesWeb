@@ -29,7 +29,7 @@ const ImpactHero = () => {
   return (
     <section className='max-w-[1800px] flex flex-col justify-start items-center gap-[1rem] w-full md:px-30 px-9'>
     <img src="/assets/impactHero.svg" alt="" className={`lg:w-[45%] mt-[4.5rem] ${
-          isVisible ? "ttbAnim " : " md:opacity-0 "
+          isVisible ? "ttbAnimSm " : " md:opacity-0 "
         }`}/>
     <h2 
             // @ts-ignore
