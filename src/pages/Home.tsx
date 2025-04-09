@@ -21,8 +21,9 @@ const Home = () => {
         <LandingDark/>        </section>
         <section className="snap h-screen flex flex-col items-center justify-center pt-6 w-full">
         <ContactUs/>        </section>
-
+        <section className="snap flex flex-col items-center justify-center pt-6 w-full">
         <Footer/>
+        </section>
     </main>
   )
 }

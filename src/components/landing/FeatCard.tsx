@@ -1,6 +1,6 @@
 const FeatCard = ({imageSrc, heading, text}) => {
   return (
-    <div className="flex flex-col justify-start items-start 
+    <div className="ttbAnimNav flex flex-col justify-start items-start 
     border-[1px] rounded-[33px] border-[#1F2726] text-[#1F2726] shadow-[9px_9px_0px_0px_#4E615F]
     xl:w-[330px] px-[30px] py-[30px]
     lg:w-[270px] w-full bg-[#f1f1f1]">
