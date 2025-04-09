@@ -2,14 +2,14 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#151515] w-full border-t-[1px] border-[#212121]">
+    <footer className="bg-[#1F2726] w-full border-t-[1px] border-[#212121]">
       <div className="mx-auto w-full py-6 lg:py-8 max-w-[1800px]">
-        <div className="md:flex md:justify-between px-20">
-          <div className="mb-6 md:mb-0 flex flex-col gap-[3rem]">
+        <div className="md:flex md:justify-between sm:px-20 px-9">
+          <div className="mb-6 md:mb-0 flex flex-col justify-start sm:items-start items-center gap-[3rem]">
             <a href="" className="flex items-center">
               <img src="/LogoLight.svg" className="h-[45px] me-3" alt="Logo" />
             </a>
-            <div className="sm:flex sm:items-center sm:justify-between px-20">
+            <div className="sm:flex sm:items-center sm:justify-between w-full">
               <div className="flex flex-row md:gap-[33px] gap-[18px] items-center justify-between pt-[9px]">
                 <Link to="" target="_blank">
                   <img
@@ -42,7 +42,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-1 gap-8 sm:gap-6 sm:grid-cols-4 text-center sm:text-left">
+          <div className="grid sm:grid-cols-2 grid-cols-1 gap-8 sm:gap-6 lg:grid-cols-4 text-center sm:text-left">
             <div>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
@@ -167,21 +167,21 @@ const Footer = () => {
           </div>
         </div>
         <hr className="my-6 border-[#DFDFDF] sm:mx-auto lg:my-8" />
-        <div className="flex flex-row justify-between px-20 text-[#EEEBE2]">
-          <span className="text-sm ">
+        <div className="flex sm:flex-row flex-col justify-between items-center gap-[1rem] lg:px-20 px-6 text-[#EEEBE2]">
+          <span className="lg:text-[0.9rem] text-[0.75rem]">
             © 2024 Giggles Platonic Dating Services Private Limited ®
           </span>
-          <ul className="flex flex-row gap-[1rem]">
-            <li className="font-karla text-[1rem] hover:underline hover:cursor-pointer">
+          <ul className="flex flex-row lg:gap-[1rem] lg:text-[0.9rem] gap-[0.9rem] text-[0.75rem]">
+            <li className="font-karla hover:underline hover:cursor-pointer">
               Privacy Policy
             </li>
-            <li className="font-karla text-[1rem] hover:underline hover:cursor-pointer">
+            <li className="font-karla hover:underline hover:cursor-pointer">
               Terms of Use
             </li>
-            <li className="font-karla text-[1rem] hover:underline hover:cursor-pointer">
+            <li className="font-karla hover:underline hover:cursor-pointer">
               Refund Policy
             </li>
-            <li className="font-karla text-[1rem] hover:underline hover:cursor-pointer">
+            <li className="font-karla hover:underline hover:cursor-pointer">
               CSAE
             </li>
           </ul>
