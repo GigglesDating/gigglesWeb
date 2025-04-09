@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="flex lg:flex-row flex-col w-full lg:h-[96vh] xl:justify-between lg:pl-20 justify-end max-w-[1800px]">
+    <section className="flex lg:flex-row flex-col w-full lg:h-[96vh] xl:justify-between lg:pl-20 justify-end max-w-[1800px] lg:items-center">
       <div className="lg:flex hidden flex-col gap-[1rem] text-left text-[#1F2726] justify-center items-start max-w-[630px]">
         <h1
           className="quattrocento-bold 
@@ -39,7 +39,7 @@ const Hero = () => {
       <img
         src="/assets/hero.svg"
         alt=""
-        className="fadeIn xl:h-full xl:w-fit lg:w-[60%] w-full lg:mt-0 md:mt-[-4.5rem] sm:mt-[-2.1rem] mt-[2.1rem]"
+        className="fadeIn xl:h-full xl:w-[60%] lg:w-[60%] w-full lg:mt-0 md:mt-[-4.5rem] sm:mt-[-2.1rem] mt-[2.1rem]"
       />
       <div className="sm:pl-20 xs:px-9 px-6 md:mt-[-3rem] flex lg:hidden flex-col md:gap-[1rem] gap-[0.3rem] text-left text-[#1F2726] justify-start items-start
       w-full">
