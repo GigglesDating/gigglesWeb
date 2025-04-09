@@ -3,10 +3,28 @@
 *{
   transition: all 0.6s;
 }
+
+html {
+  scroll-snap-type: y mandatory;
+
+  background-color: #25291c;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
 nav{
   transition: all 0.9s;
 }
-
+@media screen and (max-width: 768px) {
+  .snapSm {
+    scroll-snap-align: start;
+  }
+}
+@media screen and (min-width: 768px) {
+  .snap {
+    scroll-snap-align: start;
+  }
+}
 .quattrocento-regular {
     font-family: "Quattrocento", serif;
     font-weight: 400;

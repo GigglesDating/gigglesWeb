@@ -10,11 +10,18 @@ const Home = () => {
   return (
     <main className="bg-[#EEEBE2] w-[100vw] flex flex-col gap-0 items-center">
         <Nav/>
+        <section className="snap h-screen flex flex-col items-center justify-center pt-6 w-full">
         <Hero/>
-        <AboutUsLanding/>
-        <Features/>
-        <LandingDark/>
-        {/* <ContactUs/> */}
+        </section>
+        <section className="snap h-screen flex flex-col items-center justify-center pt-6 w-full">
+        <AboutUsLanding/>        </section>
+        <section className="snap h-screen flex flex-col items-center justify-center pt-6 w-full">
+        <Features/>        </section>
+        <section className="snap h-screen flex flex-col items-center justify-center pt-6 w-full">
+        <LandingDark/>        </section>
+        <section className="snap h-screen flex flex-col items-center justify-center pt-6 w-full">
+        <ContactUs/>        </section>
+
         <Footer/>
     </main>
   )
