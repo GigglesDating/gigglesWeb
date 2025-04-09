@@ -28,7 +28,8 @@ const Scam = () => {
   return (
     <section className="flex lg:flex-row flex-col justify-between items-center xl:gap-[6rem] gap-[3rem] md:px-20 px-10 max-w-[1800px] sm:py-30 py-10">
       <div className="fadeIn lg:flex hidden flex-col gap-[1rem] text-left">
-        <h2 className="quattrocento-bold sm:text-[3rem] leading-[3.2rem] text-[2.4rem] text-[#1F2726]">
+        <h2            ref={lhsRef}      
+className="quattrocento-bold sm:text-[3rem] leading-[3.2rem] text-[2.4rem] text-[#1F2726]">
           Dating Industry is a scam!
         </h2>
         <p className="font-karla text-[1rem] leading-[1.3rem] text-justify">
@@ -45,7 +46,7 @@ const Scam = () => {
         </p>
         <button
           // @ts-ignore
-          ref={lhsRef}
+
           className="sm:mt-[2.4rem] mt-[1.2rem] bg-[#4E615F] w-fit px-[2.4rem] py-[12px] text-[#EEEBE2]
           hover:bg-[#4e615fd1] hover:px-[2.1rem] hover:tracking-[0.5px]
               hover:cursor-pointer"
@@ -77,8 +78,6 @@ const Scam = () => {
           solution, maybe! but we're here to try.
         </p>
         <button
-          // @ts-ignore
-          ref={lhsRef}
           className="sm:mt-[2.4rem] mt-[1.2rem] bg-[#4E615F] w-fit px-[2.4rem] py-[12px] text-[#EEEBE2]
           hover:bg-[#4e615fd1] hover:px-[2.1rem] hover:tracking-[0.5px]
               hover:cursor-pointer"
