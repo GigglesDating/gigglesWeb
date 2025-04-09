@@ -28,7 +28,7 @@ const SightSec = () => {
   return (
     <section className=" flex flex-col justify-start items-center gap-[0rem] md:px-10 px-2 max-w-[1800px] py-12 w-full ">
 <h2           // @ts-ignore
-          ref={lhsRef} className="quattrocento-bold sm:text-[2.4rem] sm:leading-[2.7rem] text-[1.5rem] leading-[1.8rem] text-center text-[#EEEBE2] xl:pt-60 pt-10">
+          ref={lhsRef} className="quattrocento-bold sm:text-[2.4rem] sm:leading-[2.7rem] text-[1.5rem] leading-[1.8rem] text-center text-[#EEEBE2] xl:pt-10 pt-10">
           A Sight to See
          <br/>  The Epitome of Healthy Social Life
         </h2>

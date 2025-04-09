@@ -18,7 +18,7 @@ const AboutUs = () => {
       <section className="snap sm:h-screen flex flex-col items-center justify-center lg:mt-[18rem] w-full">
         <Scam/>
       </section>
-      <section className="bgGrad snap md:h-screen flex flex-col items-center justify-center lg:mt-[18rem] w-full">
+      <section className="bgGrad snap flex flex-col items-center justify-center lg:mt-[18rem] w-full">
         <SightSec/>
         <AboutBanner2/>
       </section>
