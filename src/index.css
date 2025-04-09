@@ -20,7 +20,7 @@ nav{
     scroll-snap-align: start;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .snap {
     scroll-snap-align: start;
   }

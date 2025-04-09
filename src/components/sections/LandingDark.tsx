@@ -26,7 +26,7 @@ const LandingDark = () => {
     }
   }, []);
   return (
-    <section className="bg-[#4E615F] text-[#EEEBE2] h-[90%] pt-10 w-full max-w-[1800px]">
+    <section className="bg-[#4E615F] text-[#EEEBE2] sm:h-[90%] h-[60%] pt-10 w-full max-w-[1800px]">
       <div className={`${
           isVisible ? "fadeIn " : " md:opacity-0 "
         } flex flex-col lg:gap-[0.6rem] gap-[0.3rem] text-left lg:pl-30 md:pl-20 sm:pl-10 pl-6 lg:mt-10 mt-6 lg:mb-[-12rem] sm:mb-[-9rem] mb-[-3rem]`}>
@@ -40,7 +40,7 @@ const LandingDark = () => {
           Join Waitlist
         </button>
       </div>
-      <div className="flex flex-col w-full xl:mt-[-33rem] lg:mt-[-21rem] md:mt-[-18rem] sm:mt-[-9rem] mt-[-3rem]">
+      <div className="flex flex-col w-full xl:mt-[-33rem] lg:mt-[-21rem] md:mt-[-18rem] sm:mt-[-9rem] mt-[-6rem]">
         <img src="/assets/RHS.svg" alt="" className={`${
           isVisible ? "rtlAnim " : " md:opacity-0 "
         } xl:mb-[-4.5rem] md:mb-[-4.2rem] sm:mb-[-2.4rem] mb-[-1.5rem] w-[48%] place-self-end z-20`}/>
