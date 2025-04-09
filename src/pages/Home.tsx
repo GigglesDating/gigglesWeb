@@ -1,10 +1,10 @@
 import Footer from "../components/layout/Footer"
 import Nav from "../components/layout/Nav"
-import AboutUsLanding from "../components/sections/AboutUsLanding"
-import ContactUs from "../components/sections/ContactUs"
-import Features from "../components/sections/Features"
-import Hero from "../components/sections/Hero"
-import LandingDark from "../components/sections/LandingDark"
+import AboutUsLanding from "../components/landingSections/AboutUsLanding"
+import ContactUs from "../components/landingSections/ContactUs"
+import Features from "../components/landingSections/Features"
+import Hero from "../components/landingSections/Hero"
+import LandingDark from "../components/landingSections/LandingDark"
 
 const Home = () => {
   return (
