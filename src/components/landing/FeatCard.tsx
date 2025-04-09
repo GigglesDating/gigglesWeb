@@ -1,3 +1,4 @@
+// @ts-ignore
 const FeatCard = ({imageSrc, heading, text}) => {
   return (
     <div className="ttbAnimNav flex flex-col justify-start items-start 

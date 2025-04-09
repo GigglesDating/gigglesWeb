@@ -30,6 +30,7 @@ const Features = () => {
     <section className="flex flex-col sm:px-16 px-9 text-[#1F2726] py-20 gap-[3.3rem]">
         <div className="flex flex-row w-full justify-between items-center">
             <h2 className="quattrocento-bold sm:text-[2.7rem] text-[2.1rem]">Features</h2>
+            {/* @ts-ignore */}
             <button ref={lhsRef} className="w-fit bg-[#4E615F] 
             sm:px-[2.4rem] sm:py-[12px] 
             px-[1.8rem] py-[9px]

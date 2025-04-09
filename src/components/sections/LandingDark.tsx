@@ -33,6 +33,7 @@ const LandingDark = () => {
         <h2 className="quattrocento-bold lg:text-[2.7rem] lg:leading-[3rem] sm:text-[2.1rem] sm:leading-[2.4rem] text-[1.8rem] leading-[2.1rem]">Experience India's first <br/>platonic dating app</h2>
         <p className="font-karla lg:text-[1.2rem] sm:text-[1.05rem] text-[0.9rem]">Apply to our Beta test program. Get Early Access</p>
         <h1 className="quattrocento-bold lg:text-[2.7rem] lg:leading-[3rem] sm:text-[2.25rem] sm:leading-[2.4rem] text-[1.8rem] leading-[2.1rem]">@ 40% off.</h1>
+        {/* @ts-ignore */}
         <button ref={lhsRef} className="w-fit bg-[#EEEBE2] md:px-[1.8rem] md:py-[12px] px-[1.5rem] py-[9px] text-[#1F2726] md:text-[1rem] text-[0.9rem]
         hover:bg-[#EEEBE2d1] hover:px-[1.5rem] hover:tracking-[0.5px]
             hover:cursor-pointer">

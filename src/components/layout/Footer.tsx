@@ -10,7 +10,7 @@ const Footer = () => {
               <img src="/LogoLight.svg" className="h-[45px] me-3" alt="Logo" />
             </a>
             <div className="sm:flex sm:items-center sm:justify-between px-20">
-              <div className="flex flex-row md:gap-[36px] gap-[18px] items-center justify-between pt-[9px]">
+              <div className="flex flex-row md:gap-[33px] gap-[18px] items-center justify-between pt-[9px]">
                 <Link to="" target="_blank">
                   <img
                     src="/socials/instaCTA.svg"

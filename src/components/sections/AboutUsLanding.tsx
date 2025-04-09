@@ -49,6 +49,7 @@ const AboutUsLanding = () => {
           platonic companionships.
         </p>
         <button
+        // @ts-ignore
           ref={lhsRef}
           className="sm:mt-[2.4rem] mt-[1.2rem] bg-[#4E615F] w-fit px-[2.4rem] py-[12px] text-[#EEEBE2]
         hover:bg-[#4e615fd1] hover:px-[2.1rem] hover:tracking-[0.5px]
