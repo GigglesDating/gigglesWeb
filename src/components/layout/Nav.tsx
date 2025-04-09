@@ -34,7 +34,7 @@ const Nav = () => {
             to="/aboutus"
             className={`hover:tracking-wide
             hover:bg-[#1f2726b5] hover:text-[#EEEBE2] px-[15px] py-[3px] rounded-full
-              ${path[1] == "a" ? "bg-[#1f2726b5] text-[#EEEBE2]" : ""}`}
+              ${path[1] == "aboutus" ? "bg-[#1f2726b5] text-[#EEEBE2]" : ""}`}
           >
             About Us
           </Link>
@@ -42,7 +42,7 @@ const Nav = () => {
             to="/impact"
             className={`hover:tracking-wide
             hover:bg-[#1f2726b5] hover:text-[#EEEBE2] px-[15px] py-[3px] rounded-full
-              ${path[1] == "a" ? "bg-[#1f2726b5] text-[#EEEBE2]" : ""}`}
+              ${path[1] == "impact" ? "bg-[#1f2726b5] text-[#EEEBE2]" : ""}`}
           >
             Impact
           </Link>
