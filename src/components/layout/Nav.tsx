@@ -1,9 +1,20 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { Modal, ModalBody, ModalHeader} from "flowbite-react";
+
 const Nav = () => {
   const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
   const path = location.pathname.split("/");
+  const [openModal, setOpenModal] = useState(true);
+  // @ts-ignore
+  const [email, setEmail] = useState("");
+
+  function onCloseModal() {
+    setOpenModal(false);
+    setEmail("");
+  }
+
   return (
     <>
       <nav
@@ -56,6 +67,7 @@ const Nav = () => {
             Influencer Registration
           </button>
           <button
+          onClick={() => setOpenModal(true)}
             className="bg-[#00000000] border-[1px] border-[#1F2726] 
             px-[16px] py-[9px]
             hover:px-[12px] hover:tracking-[1px] hover:scale-105"
@@ -145,6 +157,44 @@ const Nav = () => {
         </div> 
         </div>
       </nav>
+      <Modal dismissible show={openModal} size="md" onClose={onCloseModal} popup>
+        <ModalHeader className="bg-[#4E615F] rounded-none border-t-[1px] border-r-[1px] border-s-[1px] !border-[#EEEBE2]"/>
+        <ModalBody className="bg-[#4E615F] rounded-none border-b-[1px] border-r-[1px] border-s-[1px] !border-[#EEEBE2] !px-[2.1rem]">
+          <div className="space-y-3">
+            <div>
+            <h2 className="quattrocento-regular text-[2rem] text-[#EEEBE2]">Login</h2>
+            <h3 className="text-xl font-medium text-[#EEEBE2] quattrocento-regular">New to this site? <span className="underline font-karla">Sign Up</span></h3>
+            
+            </div>
+            <button className="w-full bg-[#EEEBE2] md:px-[1.8rem] md:py-[12px] px-[1.5rem] py-[9px] text-[#1F2726] md:text-[1rem] text-[0.9rem]
+        hover:bg-[#EEEBE2d1] hover:px-[1.5rem] hover:tracking-[0.5px] my-[2.4rem]
+            hover:cursor-pointer font-karla flex flex-row justify-center items-center gap-3">
+          <img src="/socials/google.svg" alt="" /> <span>Login with Google</span>
+        </button>
+        <form action="" className="flex flex-col gap-[1.2rem] w-full text-[#EEEBE2]">
+          <div className="flex flex-col gap-[0.3rem] w-full">
+            <label htmlFor="" className="font-karla text-[1rem]">
+              Name *
+            </label>
+            <input
+              type="text"
+              className="pt-[9px] pb-[3px] px-[6px] text-[1rem] border-b-[1px] border-[#EEEBE2] w-full"
+            />
+          </div>
+          <div className="flex flex-col gap-[0.3rem] w-full">
+            <label htmlFor="" className="font-karla text-[1rem]">
+              Email address *
+            </label>
+            <input
+              type="text"
+              className="pt-[9px] pb-[3px] px-[6px] text-[1rem] border-b-[1px] border-[#EEEBE2] w-full"
+            />
+          </div>
+          <input type="submit" value="Login" className="mt-[24px] bg-[#EEEBE2] w-full text-[#4E615F] text-[2rem] quattrocento-regular py-[12px]"/>
+          </form>
+          </div>
+        </ModalBody>
+      </Modal>
     </>
   );
 };
